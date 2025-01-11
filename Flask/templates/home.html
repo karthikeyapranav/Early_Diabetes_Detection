@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetic Retinopathy Detection</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Diabetes Detection</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/result">Upload</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container text-center mt-5">
+            <h1>Welcome to Diabetic Retinopathy Detection</h1>
+            <p class="lead">Upload a retina image to detect diabetic retinopathy and get precautions.
+                Diabetic retinopathy (DR) is an eye condition that occurs when high blood sugar levels damage the retina, the light-sensitive tissue at the back of the eye.
+                 It's a leading cause of blindness in working-age adults and a leading cause of sight loss worldwide.
+            </p>
+            <a href="/result" class="btn btn-primary btn-lg mt-3">Get Started</a>
+        </div>
+    </div>
+</body>
+</html>

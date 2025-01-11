@@ -1,0 +1,51 @@
+body {
+    background-image: url('backimg.jpg'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: #ffffff;
+    }
+
+
+
+
+.navbar {
+    background-color: #1a1a2e;
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.container {
+    background-color: rgb(9, 8, 8); /* Darker background for contrast */
+    border-radius: 10px;
+    padding: 20px;
+    color: #f5f2f4;
+}
+
+#preview {
+    max-width: 100%;
+    border: 2px solid #6fd0e9;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #f77f00; /* Bright and attractive color */
+    border: none;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e94560; /* Change color on hover */
+}
+
+.hero-section {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Transparent background for the hero section */
+}
+
+.hero-section h1, .hero-section p {
+    color: white;
+}
